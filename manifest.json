@@ -10,7 +10,7 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "https://cdn.glitch.global/0c3b55ac-d849-40fd-adc0-2a8549450385/icon512.png",
+            "src": "/icon512.png",
             "sizes": "512x512"
         }
     ]
