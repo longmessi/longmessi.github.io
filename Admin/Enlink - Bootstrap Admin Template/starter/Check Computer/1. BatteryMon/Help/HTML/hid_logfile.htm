@@ -1,0 +1,72 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Logging data</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="auto logging,Log file,Viewing log file" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?hid_logfile.htm"; }
+  else { parent.quicksync('a7'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#336699">
+  <tr valign="middle">
+    <td align="left">
+      <p style="margin: 7px 0px 7px 0px;"><span style="font-size: 16pt; font-weight: bold; color: #ffffff;">Log file</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="hid_overview.htm"><img src="top.gif" border=0 alt="Top"></a>&nbsp;
+     <a href="hid_mini.htm"><img src="prev.gif" border=0 alt="Previous"></a>&nbsp;
+     <a href="hid_external.htm"><img src="next.gif" border=0 alt="Next"></a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">The last 1000 samples are logged in memory by BatteryMon. Clicking on the view log button will create a log file on the disk and start up the default text file viewer to view the file (normally Notepad).</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">If the auto logging check box is checked, then this file will be updated in the background after each battery sampling. Auto logging can be used to ensure some record is kept during unattended testing or if the PC shuts down unexpectedly.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">By default the log file is stored in &nbsp;"My Documents\PassMark\BatteryMon" and named "battermonlog.txt". This can be changed in the configuration dialogue. &nbsp;Each time the View log button is used this file will be overwritten with the current log information.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">Seven pieces of general &nbsp;information are stored for each sample recorded in the log file.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Courier New'; color: #010100;">2001-06-24, 10:19:42, OK, 92%, 0.76, 2530, 13440, , , , , , , , , , , , , , , ,</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Courier New'; color: #010100;">2001-06-24, 10:19:52, The battery level has dropped below 92%. ,91%, 0.71, 2325, 13440, , , , , , , , , , , , , , , ,</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Courier New'; color: #010100;">2001-06-24, 10:20:02, OK, 91%, 0.74, 2426, 14000, , , , , , , , , , , , , , , ,</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">These are first seven pieces of information are,</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Date:</span><span style="font-family: 'Times New Roman'; color: #010100;"> The date in YYY-MM-DD format</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Time:</span><span style="font-family: 'Times New Roman'; color: #010100;"> The time the sample was taken. HH:MM:SS format</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Notifications:</span><span style="font-family: 'Times New Roman'; color: #010100;"> In the <a href="hid_config.htm">configuration dialogue</a> BatteryMon can be set to write notification to the log file when certain criteria are met. These notifications will be written here. If there are no notifications "OK" will be written out.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Percentage Charge:</span><span style="font-family: 'Times New Roman'; color: #010100;"> The battery charge as a % (0-100%).</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Total Battery Life:</span><span style="font-family: 'Times New Roman'; color: #010100;"> Total battery life in hours. This is calculated by looking at the rate of discharge over a period of time and extrapolating the discharge rate to a value of 0% charge. It is this value that is represented on the graph by the blue line. When only a few samples have been made the extrapolation is not very accurate and the value can vary widely. Are more samples are made the value becomes more accurate.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Seconds of charge remaining.</span><span style="font-family: 'Times New Roman'; color: #010100;"> How many seconds of use are left before the computer runs out of power. This information is normally collected from the battery itself, but if the battery pack can’t supply this information it is estimated in the BatteryMon software. When only a few samples have been made the extrapolation is not very accurate and the value can vary widely. Are more samples are made the value becomes more accurate.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Charge Rate:</span><span style="font-family: 'Times New Roman'; color: #010100;"> The batteries charge rate, or if the numbers are negative, a discharge rate (<a href="chargedischargeunits.htm">Charge/Discharge Units</a>)</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">The above values are aggregate across all batteries after these up to another four pieces of information for each battery present may be recorded. These values will only be recorded if the battery is capable of reporting them. Any information for batteries not present or that a particular battery does not report will be left blank in the log. In the above examples no specific battery information is available for any of the batteries. The pieces of information that may be logged are,</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Temperature:</span><span style="font-family: 'Times New Roman'; color: #010100;"> The temperature of the battery in degrees celcius.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Voltage:</span><span style="font-family: 'Times New Roman'; color: #010100;"> The &nbsp;voltage of the battery in volts.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Charge Rate:</span><span style="font-family: 'Times New Roman'; color: #010100;"> The charge rate of the battery, or if &nbsp;negative, a discharge rate &nbsp;(<a href="chargedischargeunits.htm">Charge/Discharge Units</a>).</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Percentage Charge:</span><span style="font-family: 'Times New Roman'; color: #010100;"> The battery charge as a % (0-100%).</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">These values are recorded in this order for each battery then followed by the same values for the next battery.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

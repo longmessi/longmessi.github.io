@@ -1,0 +1,93 @@
+02|06/26/09 11:45:45|Config file loaded: c:\files\projects\batterymon\help\html\batterymon.zcfg
+10|06/26/09 11:45:46|Start indexing (offline mode) at Fri Jun 26 11:45:46 2009
+02|06/26/09 11:45:46|Maximum number of words: 500000
+02|06/26/09 11:45:46|Maximum number of files: 65500
+02|06/26/09 11:45:46|Will scan files with extensions
+02|06/26/09 11:45:46|     .htm
+02|06/26/09 11:45:46|Search root directory: c:\files\projects\batterymon\help\html
+02|06/26/09 11:45:46|Web site URL: ./
+02|06/26/09 11:45:46|Estimated RAM required during index process: 659339 KB
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batmon_headerlogo.gif (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batmon_headerlogo.png (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batmon_indexerlogo.gif (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batmon_indexerlogo.png (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batterymon.zcfg (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\BATTERYMON.zlang (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batterymonscreenshot1.png (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batterymonscreenshot2.png (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batterymon_content_dyn.html (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batterymon_content_static.html (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batterymon_ftsearch.html (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batterymon_kwindex_dyn.html (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batterymon_kwindex_static.html (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\batterymon_navigation.js (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\BATTERYMON_popup_html.js (Blocked by extensions list)
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\chargedischargeunits.htm
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\cicon9.gif (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\ciconidx.gif (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\cicon_loadindex_ani.gif (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\default.css (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\helpman_topicinit.js (Blocked by extensions list)
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_autorun.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_batinfo.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_commandline.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_config.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_contacts.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_copyright.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_display.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_external.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_faq.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_logfile.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_mini.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_ordering.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_overview.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_systemreq.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\hid_whats_new.htm
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\highlight.js (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\index.html (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\next.gif (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\prev.gif (Blocked by extensions list)
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\serialinterface.htm
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\settings.js (Blocked by extensions list)
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\systeminfo.htm
+00|06/26/09 11:45:46|Indexing c:\files\projects\batterymon\help\html\systeminfo_2.htm
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\top.gif (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\zindexer.log (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\zoom_index.js (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\zoom_pagedata.tmp (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\zoom_pageinfo.js (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\zoom_pageinfo.tmp (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\zoom_search.js (Blocked by extensions list)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\_bm1.png (File begins with an underscore)
+01|06/26/09 11:45:46|Skipping c:\files\projects\batterymon\help\html\_bm2.png (File begins with an underscore)
+03|06/26/09 11:45:46|All index files will be written to: c:\files\projects\batterymon\help\html
+03|06/26/09 11:45:46|Writing index data for JavaScript search... (Please wait)
+03|06/26/09 11:45:46|Dictionary written out to zoom_index.js
+03|06/26/09 11:45:46|Pagedata written out to zoom_pagedata.tmp
+03|06/26/09 11:45:46|Pageinfo written out to zoom_pageinfo.tmp
+03|06/26/09 11:45:46|Skip words data written out to zoom_index.js
+03|06/26/09 11:45:46|Created script settings file (settings.js)
+10|06/26/09 11:45:46|Indexing completed at Fri Jun 26 11:45:46 2009
+12|06/26/09 11:45:46|INDEX SUMMARY
+12|06/26/09 11:45:46|Files indexed: 19
+12|06/26/09 11:45:46|Files skipped: 34
+12|06/26/09 11:45:46|Files filtered: 0
+12|06/26/09 11:45:46|Files downloaded: 0
+12|06/26/09 11:45:46|Unique words found: 1423
+12|06/26/09 11:45:46|Variant words found: 248
+12|06/26/09 11:45:46|Total words found: 6333
+12|06/26/09 11:45:46|Avg. unique words per page: 74.89
+12|06/26/09 11:45:46|Avg. words per page: 333
+12|06/26/09 11:45:46|Start index time: 11:45:46 (2009/06/26)
+12|06/26/09 11:45:46|Elapsed index time: 00:00:00
+12|06/26/09 11:45:46|Peak physical memory used: 42 MB
+12|06/26/09 11:45:46|Peak virtual memory used: 221 MB
+12|06/26/09 11:45:46|Errors: 0
+12|06/26/09 11:45:46|Total bytes scanned/downloaded: 143470
+12|06/26/09 11:45:46|File extensions: 
+12|06/26/09 11:45:46|    .htm indexed: 19
+02|06/26/09 11:45:46|Cleaning up memory used for index data... please wait.
+02|06/26/09 11:45:46|Finished cleaning up memory.
+08|06/26/09 11:45:46|Could not copy search script to: c:\files\projects\batterymon\help\html\search.js
+08|06/26/09 11:45:48|Could not open source template file: C:\Program Files\EC Software\HelpAndManual5\Compilers\scripts\Javascript\search_src.html
+08|06/26/09 11:45:49|Failed to create search template file: c:\files\projects\batterymon\help\html\search.html

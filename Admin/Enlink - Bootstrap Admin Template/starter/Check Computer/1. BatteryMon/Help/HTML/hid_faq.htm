@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Problems and FAQ</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Common Problems,Errors,FAQ,Frequently Asked Questions,Problems" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?hid_faq.htm"; }
+  else { parent.quicksync('a11'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#336699">
+  <tr valign="middle">
+    <td align="left">
+      <p style="margin: 7px 0px 7px 0px;"><span style="font-size: 16pt; font-weight: bold; color: #ffffff;">Problems and Frequently Asked Questions (FAQ)</span></p>
+<p style="text-align: center; margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-style: italic; color: #ffffff;">Note: See the PassMark website (www.passmark.com) for the latest version of the FAQ</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="hid_overview.htm"><img src="top.gif" border=0 alt="Top"></a>&nbsp;
+     <a href="hid_commandline.htm"><img src="prev.gif" border=0 alt="Previous"></a>&nbsp;
+     <a href="hid_systemreq.htm"><img src="next.gif" border=0 alt="Next"></a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-style: italic; font-weight: bold; color: #010100;">Q. How accurate is BatteryMon?</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">BatteryMon is only as accurate as the battery pack which supplies the information. Due to their chemical nature it is often hard to get a precise indication as to the charge level in the battery.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-style: italic; font-weight: bold; color: #010100;">Q. Are all types of portable computers and UPS’s supported?</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">Some older nonstandard battery systems and UPSs are not supported. Machines running Windows95 and WindowsNT are also </span><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">not</span><span style="font-family: 'Times New Roman'; color: #010100;"> supported. Machines running Windows98, Me, 2000 are supported.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-style: italic; font-weight: bold; color: #010100;">Q. How many batteries can be reported on?</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">A unlimited number of batteries are supported for the graph display. For the detailed, per battery, information up to 4 battery slots are supported.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-style: italic; font-weight: bold; color: #010100;">Q. The log file appears to be limited in size. Is it possible for user to change the log file size, and/or sampling frequency?</span></p>
+<p style="margin: 1px 0px 1px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">The log only stores the last 1000 samples. However it is possible to change the sample rate by entering a new value for "Sample time" in the BatteryMon window.</span></p>
+<p style="margin: 1px 0px 1px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">If you chance this value to 30sec, then the log should cover 8.3hours</span></p>
+<p style="margin: 1px 0px 1px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">If you chance this value to 60sec, then the log should cover 16.7hours</span></p>
+<p style="margin: 1px 0px 1px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 1px 0px 1px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">Turning on auto-logging will bypass the 1000 sample limit as each sample will be written out to the log as soon as it is taken.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-style: italic; font-weight: bold; color: #010100;">Q. My battery has a full charge capacity much lower than the design capacity, what is wrong?</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">The battery has stored the wrong full charge capacity. A battery learns a new full charge capacity from a full charge to a full discharge. If it leans a very low full charge then it cannot re-learn a normal value. A low full charge capacity can be learned in several ways;</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">The battery reads a ‘false’ full charge signal. This can be caused by excessive heat in the system such as from inserting a cold battery into a hot system and charging immediately, or some other heat source located near the battery cavity. It can also occur if the battery has been unused for a long period of time or has been over-discharged.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">The battery has not seen a large portion of capacity drained from it, therefore the battery does not record capacity leaving, only learning the capacity that is actually monitored during the discharge. Another similar cause is when the battery undergoes a small discharge over an extended period of time, such as being in a hibernate or suspended state for a few days, drains the battery but is again not measured.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-style: italic; font-weight: bold; color: #010100;">Q. I am not receiving notification emails?</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">BatteryMon sends emails through a user specified mail server. If this server is inaccessible BatteryMon will report an error however once BatteryMon has succesfully sent the email it is up to the mail server to ensure delivery. If BatteryMon is not reporting any errors in sending emails but you are not receiving the mails please check that no spam filters are filtering out the message.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; font-weight: bold; color: #010100;">Q. How can I set-up BatteryMon to run from a CD or USB memory stick under Windows?</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"> BatteryMon setup</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"> &nbsp; 1. Install BatteryMon on any PC using the normal setup program.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"> &nbsp; 2. Make a 'key.dat' file (see below) in the same directory as the BatteryMon executable file (BatteryMon.exe).</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"> &nbsp; 3. Copy all the files from the installation directory to a CD or USB memory stick.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"> &nbsp; 4. That's it, you're finished. BatteryMon should now run from a CD or USB memory stick and pick up the license information automatically.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">Making a key.dat file</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"> &nbsp; 1. Create an ASCII text file.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"> &nbsp; 2. The first line must contain the username.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"> &nbsp; 3. The second line must contain the licence key</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"> &nbsp; 4. Save the file in the same directory as BatteryMon.exe with a file name of key.dat.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">You can now uninstall PerformanceTest from the PC hard disk and use the CD or USB memory stick in the future on other machines. We recommend using a USB memory stick, rather than a CD, so that log files may be saved. IMPORTANT NOTE: If you are using the unlicensed valuation version you need to be careful that the date and time is set correctly on all the PCs.</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

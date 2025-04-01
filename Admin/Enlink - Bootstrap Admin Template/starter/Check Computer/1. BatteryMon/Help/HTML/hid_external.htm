@@ -1,0 +1,66 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>External interfaces</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Custom development,External interface,Shared memory,help@passmark.com" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?hid_external.htm"; }
+  else { parent.quicksync('a8'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#336699">
+  <tr valign="middle">
+    <td align="left">
+      <p style="margin: 7px 0px 7px 0px;"><span style="font-size: 16pt; font-weight: bold; color: #ffffff;">External Interfaces</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="hid_overview.htm"><img src="top.gif" border=0 alt="Top"></a>&nbsp;
+     <a href="hid_logfile.htm"><img src="prev.gif" border=0 alt="Previous"></a>&nbsp;
+     <a href="hid_autorun.htm"><img src="next.gif" border=0 alt="Next"></a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">BurnInTest Interface</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">BatteryMon can work with another product from PassMark Software called, BurnInTest. If you have BurnInTest version 2.2.1006 and above, then it can be configured to log the battery statistics collected by BatteryMon. This can be configured from within BurnInTest. Both programs need to be active and running for this feature to work. See BurnInTest for more details. </span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"><a href="http://www.passmark.com/products/bit.htm" target="_blank" class="weblink">http://www.passmark.com/products/bit.htm</a></span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">Shared memory interface</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">This section is intended for programmers and software integrators looking to use BatteryMon as part of their complete software solution.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">Most of the information collected by BatteryMon relating to the batteries is exposed via a shared memory interface. This interface allows the collected information to be used by other software products which have been designed to be compatible with BatteryMon.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">The name of the shared memory interface is, "BatteryMonInterface". Here is an example of how to access the interface in C++.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-size: 9pt; font-family: 'Courier New'; color: #010100;">hMappedObject = OpenFileMapping (FILE_MAP_READ,FALSE,"BatteryMonInterface");</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-size: 9pt; font-family: 'Courier New'; color: #010100;">pDataAddress = MapViewOfFile(hMappedObject,FILE_MAP_READ,0,0,0);</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">After the interface has been opened the data relating to each battery can accessed.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">Contact us for more details on the structure of the data in this interface, </span><span style="font-family: 'Times New Roman'; color: #0000ff;"><a href="mailto:help@passmark.com" class="weblink">help@passmark.com</a></span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">Custom development</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">If you need BatteryMon customized to fit your application or product please let us know.</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;"><a href="mailto:sales@passmark.com" class="weblink">sales@passmark.com</a></span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">Serial connection</span></p>
+<p style="margin: 7px 0px 7px 0px;"><span style="font-family: 'Times New Roman'; color: #010100;">BatteryMon can also read data from a serial port, for more information see <a href="serialinterface.htm">Serial Interface</a></span></p>
+
+</td></tr></table>
+
+</body>
+</html>
